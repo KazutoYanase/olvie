@@ -871,7 +871,26 @@ img {
 
     #item_aroma_ph {
         width: 100%;
-        margin-bottom: 120px;
+        margin-bottom: 50px;
+    }
+    #item_aroma_item_txt {
+        width: 75%;
+        text-align: justify;
+        line-height: 2.25em;
+        margin: 0 auto 100px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 14px;
+        
+        #item_aroma_item_name {
+            font-family: "Hannari", "Noto Serif JP", serif;
+            font-size: 18px;
+            text-decoration: underline;
+        }
+        
+        #item_aroma_item_btn {
+            width: 66.5%;
+            margin: 30px auto 0;
+        }
     }
 }
 

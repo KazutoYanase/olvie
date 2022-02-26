@@ -769,7 +769,24 @@ img {
 }
 #item_aroma #item_aroma_ph {
   width: 100%;
-  margin-bottom: 120px;
+  margin-bottom: 50px;
+}
+#item_aroma #item_aroma_item_txt {
+  width: 75%;
+  text-align: justify;
+  line-height: 2.25em;
+  margin: 0 auto 100px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 14px;
+}
+#item_aroma #item_aroma_item_txt #item_aroma_item_name {
+  font-family: "Hannari", "Noto Serif JP", serif;
+  font-size: 18px;
+  text-decoration: underline;
+}
+#item_aroma #item_aroma_item_txt #item_aroma_item_btn {
+  width: 66.5%;
+  margin: 30px auto 0;
 }
 
 /* -=-=-=- Salon Menu -=-=-=- */
@@ -867,41 +884,6 @@ img {
 }
 #salonmenu_wrap #salonmenu_inner .salonmenu_txt-mgnbtm30 {
   margin-bottom: 20px;
-}
-#salonmenu_wrap #salonmenu_inner #salonmenu_howto {
-  border-top: 1px solid #000;
-  padding-top: 50px;
-  margin-top: 80px;
-}
-#salonmenu_wrap #salonmenu_inner #salonmenu_howto #salonmenu_howto_title {
-  width: 39%;
-  margin: 0 auto 20px;
-}
-#salonmenu_wrap #salonmenu_inner #salonmenu_howto .salonmenu_howto_txt {
-  font-size: 12px;
-  line-height: 2em;
-  text-align: justify;
-}
-#salonmenu_wrap #salonmenu_inner #salonmenu_howto .salonmenu_howto_txt span {
-  font-size: 1.25em;
-}
-#salonmenu_wrap #salonmenu_inner #salonmenu_howto .salonmenu_howto_btn_wrap {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 30px 0 0;
-}
-#salonmenu_wrap #salonmenu_inner #salonmenu_howto .salonmenu_howto_btn_wrap .salonmenu_howto_btn {
-  box-sizing: border-box;
-  width: 70%;
-  padding: 15px 10px;
-  margin: 0 auto 30px;
-  text-align: center;
-  background-color: #463243;
-  font-size: 1em;
-}
-#salonmenu_wrap #salonmenu_inner #salonmenu_howto .salonmenu_howto_btn_wrap .salonmenu_howto_btn a {
-  color: #fff;
-  letter-spacing: 0.1em;
 }
 #salonmenu_wrap #salonmenu_inner #salonmenu_caution {
   border-top: 1px solid #000;
@@ -1090,8 +1072,7 @@ img {
   border-right: 1px solid #463143;
 }
 
-.pager a,
-.pager span {
+.pager a, .pager span {
   font-size: 14px;
   line-height: 1;
   display: inline-block;
@@ -1101,32 +1082,27 @@ img {
   text-decoration: none;
 }
 
-.pager a.current,
-.pager span.current {
+.pager a.current, .pager span.current {
   font-weight: 900;
   color: #000;
 }
 
-.pager a.previouspostslink,
-.pager span.previouspostslink {
+.pager a.previouspostslink, .pager span.previouspostslink {
   text-indent: -5000px;
   background: url(../images/pager_prev_mark.svg) no-repeat center center;
 }
 
-.pager a.nextpostslink,
-.pager span.nextpostslink {
+.pager a.nextpostslink, .pager span.nextpostslink {
   text-indent: -5000px;
   background: url(../images/pager_next_mark.svg) no-repeat center center;
 }
 
-.pager a.last,
-.pager span.last {
+.pager a.last, .pager span.last {
   text-indent: -5000px;
   background: url(../images/pager_end_mark.svg) no-repeat center center;
 }
 
-.pager a.first,
-.pager span.first {
+.pager a.first, .pager span.first {
   text-indent: -5000px;
   background: url(../images/pager_start_mark.svg) no-repeat center center;
 }
@@ -1146,5 +1122,3 @@ img {
   line-height: 2em;
   margin-bottom: 20px;
 }
-
-/*# sourceMappingURL=sp.css.map */
