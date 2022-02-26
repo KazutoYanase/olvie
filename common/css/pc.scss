@@ -27,7 +27,7 @@ a {
 
 img {
     max-width: 100%;
-    height:auto;
+    height: auto;
     vertical-align: top;
 }
 
@@ -39,11 +39,11 @@ img {
     top: 0;
     left: calc(50% - 500px);
     z-index: 10;
-    
+
     a {
         transition: 0.5s;
     }
-    
+
     a:hover {
         opacity: 0.5;
     }
@@ -847,8 +847,26 @@ img {
         }
     }
 
-    #item_aroma_ph {
-        margin-bottom: 250px;
+    #item_aroma_ph {}
+
+    #item_aroma_item_txt {
+        width: 360px;
+        text-align: justify;
+        line-height: 2.5em;
+        margin-top: -120px;
+        margin-left: 50px;
+        margin-bottom: 150px;
+        font-family: 'Noto Sans JP', sans-serif;
+
+        #item_aroma_item_name {
+            font-family: "Hannari", "Noto Serif JP", serif;
+            font-size: 20px;
+            text-decoration: underline;
+        }
+
+        #item_aroma_item_btn {
+            margin-top: 30px;
+        }
     }
 }
 
@@ -1199,19 +1217,22 @@ img {
 #Salon_news {
     width: 1000px;
     margin: 0 auto 200px;
+
     div:nth-of-type(2) {
         border-top: 1px solid #000;
         padding-top: 30px;
     }
+
     #Salon_news_copy {
         width: 107px;
         margin: 0 auto 50px;
     }
+
     .Salon_news_date {
         font-size: 14px;
         line-height: 30px
     }
-    
+
     .Salon_news_title {
         font-size: 20px;
         line-height: 40px;
@@ -1228,40 +1249,53 @@ img {
 }
 
 .pager .wp-pagenavi {
-    display:inline-block;
-    border-right:1px solid #463143
+    display: inline-block;
+    border-right: 1px solid #463143
 }
-.pager a,.pager span {
-    font-size:14px;
-    line-height:1;
-    display:inline-block;
-    padding:0 25px;
-    border-left:1px solid #463143;
-    color:#463143;
-    text-decoration:none
+
+.pager a,
+.pager span {
+    font-size: 14px;
+    line-height: 1;
+    display: inline-block;
+    padding: 0 25px;
+    border-left: 1px solid #463143;
+    color: #463143;
+    text-decoration: none
 }
-.pager a.current,.pager span.current {
-    font-weight:900;
-    color:#000;
+
+.pager a.current,
+.pager span.current {
+    font-weight: 900;
+    color: #000;
 }
-.pager a.previouspostslink,.pager span.previouspostslink {
-    text-indent:-5000px;
-    background:url(../images/pager_prev_mark.svg) no-repeat center center
+
+.pager a.previouspostslink,
+.pager span.previouspostslink {
+    text-indent: -5000px;
+    background: url(../images/pager_prev_mark.svg) no-repeat center center
 }
-.pager a.nextpostslink,.pager span.nextpostslink {
-    text-indent:-5000px;
-    background:url(../images/pager_next_mark.svg) no-repeat center center
+
+.pager a.nextpostslink,
+.pager span.nextpostslink {
+    text-indent: -5000px;
+    background: url(../images/pager_next_mark.svg) no-repeat center center
 }
-.pager a.last,.pager span.last {
-    text-indent:-5000px;
-    background:url(../images/pager_end_mark.svg) no-repeat center center
+
+.pager a.last,
+.pager span.last {
+    text-indent: -5000px;
+    background: url(../images/pager_end_mark.svg) no-repeat center center
 }
-.pager a.first,.pager span.first {
-    text-indent:-5000px;
-    background:url(../images/pager_start_mark.svg) no-repeat center center
+
+.pager a.first,
+.pager span.first {
+    text-indent: -5000px;
+    background: url(../images/pager_start_mark.svg) no-repeat center center
 }
+
 .pager a:hover {
-    opacity:0.6
+    opacity: 0.6
 }
 
 /* -=-=-=- 404ページ -=-=-=- */
@@ -1269,6 +1303,7 @@ img {
 #wrap_404page {
     width: 800px;
     margin: 300px auto 350px;
+
     p {
         text-align: center;
         font-size: 1.5em;

@@ -740,8 +740,22 @@ img {
   letter-spacing: 0.1em;
   margin-bottom: 30px;
 }
-#item_aroma #item_aroma_ph {
-  margin-bottom: 250px;
+#item_aroma #item_aroma_item_txt {
+  width: 360px;
+  text-align: justify;
+  line-height: 2.5em;
+  margin-top: -120px;
+  margin-left: 50px;
+  margin-bottom: 150px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+#item_aroma #item_aroma_item_txt #item_aroma_item_name {
+  font-family: "Hannari", "Noto Serif JP", serif;
+  font-size: 20px;
+  text-decoration: underline;
+}
+#item_aroma #item_aroma_item_txt #item_aroma_item_btn {
+  margin-top: 30px;
 }
 
 /* -=-=-=- Salon Menu -=-=-=- */
@@ -847,41 +861,6 @@ img {
 }
 #salonmenu_wrap #salonmenu_inner .salonmenu_txt-mgnbtm30 {
   margin-bottom: 30px;
-}
-#salonmenu_wrap #salonmenu_inner #salonmenu_howto {
-  border-top: 1px solid #000;
-  padding-top: 70px;
-  margin-top: 120px;
-}
-#salonmenu_wrap #salonmenu_inner #salonmenu_howto #salonmenu_howto_title {
-  width: 170px;
-  margin: 0 auto 50px;
-}
-#salonmenu_wrap #salonmenu_inner #salonmenu_howto .salonmenu_howto_txt {
-  line-height: 1.75em;
-  text-align: justify;
-}
-#salonmenu_wrap #salonmenu_inner #salonmenu_howto .salonmenu_howto_txt span {
-  font-size: 1.25em;
-}
-#salonmenu_wrap #salonmenu_inner #salonmenu_howto .salonmenu_howto_btn_wrap {
-  display: flex;
-  justify-content: space-around;
-  margin: 45px 0;
-}
-#salonmenu_wrap #salonmenu_inner #salonmenu_howto .salonmenu_howto_btn_wrap .salonmenu_howto_btn {
-  width: 290px;
-  padding: 20px;
-  text-align: center;
-  background-color: #463243;
-  font-size: 1.25em;
-}
-#salonmenu_wrap #salonmenu_inner #salonmenu_howto .salonmenu_howto_btn_wrap .salonmenu_howto_btn a {
-  color: #fff;
-}
-#salonmenu_wrap #salonmenu_inner #salonmenu_howto .salonmenu_howto_btn_wrap .salonmenu_howto_btn .tel_link {
-  pointer-events: none;
-  letter-spacing: 0.1em;
 }
 #salonmenu_wrap #salonmenu_inner #salonmenu_caution {
   border-top: 1px solid #000;
@@ -1144,5 +1123,3 @@ img {
   line-height: 2em;
   margin-bottom: 50px;
 }
-
-/*# sourceMappingURL=pc.css.map */

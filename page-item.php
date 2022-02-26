@@ -149,6 +149,10 @@ get_header(); ?>
             <img src="<?= esc_url(get_template_directory_uri()); ?>/common/images/item_sp_aroma_ph-1.jpg" alt="" class="sp_inline">
         </div>
         <div id="item_aroma_item_txt">
+            <div id="item_aroma_item_name">
+                KUROMOJI<br>
+                エッセンシャルオイル（精油）
+            </div>
             日本の里山に自生している黒文字（クロモジ）の枝と葉から抽出した貴重なエッセンシャルオイル
             <div id="item_aroma_item_btn">
                 <a href="https://olvie.shop/items/61f09a95acbcb04b62442cb5" target="_blank" rel="noopener noreferrer">
