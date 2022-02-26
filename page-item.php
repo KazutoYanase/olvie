@@ -141,13 +141,20 @@ get_header(); ?>
             </div>
             <div id="item_aroma_title_copy" class="fade">
                 日本で採れたハーブや植物を中心とした<br class="sp_inline">エッセンシャルオイルづくりを<br class="sp_inline">すすめています。<br>
-                華やかで濃厚な植物のチカラを<br class="sp_inline">詰め込んだエッセンスを<br class="sp_inline">お届けする予定です。<br>
-                もうしばらくお待ちください。
+                華やかで濃厚な植物のチカラを<br class="sp_inline">詰め込んだエッセンスを<br class="sp_inline">お楽しみください。
             </div>
         </div>
         <div id="item_aroma_ph">
             <img src="<?= esc_url(get_template_directory_uri()); ?>/common/images/item_pc_aroma_ph-1.jpg" alt="" class="pc_inline">
             <img src="<?= esc_url(get_template_directory_uri()); ?>/common/images/item_sp_aroma_ph-1.jpg" alt="" class="sp_inline">
+        </div>
+        <div id="item_aroma_item_txt">
+            日本の里山に自生している黒文字（クロモジ）の枝と葉から抽出した貴重なエッセンシャルオイル
+            <div id="item_aroma_item_btn">
+                <a href="https://olvie.shop/items/61f09a95acbcb04b62442cb5" target="_blank" rel="noopener noreferrer">
+                    <img src="<?= esc_url(get_template_directory_uri()); ?>/common/images/item_pc_soap_btn-1.png" alt="ご購入はこちら">
+                </a>
+            </div>
         </div>
     </div>
 
