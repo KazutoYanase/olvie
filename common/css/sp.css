@@ -862,6 +862,15 @@ img {
   width: 100%;
   text-align: right;
 }
+#salonmenu_wrap #salonmenu_inner .salonmenu_secondprice {
+  width: 100%;
+  font-size: 20px;
+  text-align: right;
+  margin-top: 2px;
+}
+#salonmenu_wrap #salonmenu_inner .salonmenu_secondprice span {
+  font-size: 0.7em;
+}
 #salonmenu_wrap #salonmenu_inner .salonmenu_spec {
   margin: 10px 0;
 }

@@ -163,9 +163,10 @@ get_header(); ?>
         </div>
         <!-- 1 Menu Start -->
         <div class="salonmenu_course">
-            <div class="salonmenu_name">IBUKI （息吹）50min</div>
-            <div class="salonmenu_price">6,800<span>円（税込）</span></div>
+            <div class="salonmenu_name">IBUKI （息吹）</div>
+            <div class="salonmenu_price">30min　4,200<span>円（税込）</span></div>
         </div>
+        <div class="salonmenu_secondprice">50min　6,800<span>円（税込）</span></div>
         <div class="salonmenu_spec fade">
             <img src="<?= esc_url(get_template_directory_uri()); ?>/common/images/salonmenu_pc_spec_ibuki.svg" alt="" class="pc_inline">
             <img src="<?= esc_url(get_template_directory_uri()); ?>/common/images/salonmenu_sp_spec_ibuki.svg" alt="" class="sp_inline">
@@ -257,8 +258,8 @@ get_header(); ?>
             <div class="salonmenu_price_subtxt sp_block">60分コースからお受けいただけます。</div>
         </div>
         <div class="salonmenu_spec fade">
-            <img src="<?= esc_url(get_template_directory_uri()); ?>/common/images/salonmenu_pc_spec_personal-1.svg" alt="" class="pc_inline">
-            <img src="<?= esc_url(get_template_directory_uri()); ?>/common/images/salonmenu_sp_spec_personal-1.svg" alt="" class="sp_inline">
+            <img src="<?= esc_url(get_template_directory_uri()); ?>/common/images/salonmenu_pc_spec_personal-2.svg" alt="" class="pc_inline">
+            <img src="<?= esc_url(get_template_directory_uri()); ?>/common/images/salonmenu_sp_spec_personal-2.svg" alt="" class="sp_inline">
         </div>
         <!-- 1 Menu End -->
 
@@ -306,7 +307,7 @@ get_header(); ?>
             </div>
             <div class="salonmenu_howto_txt">
                 <span>&#9711;ご予約受付時間：10時〜19時（営業時間：10時〜20時30分）</span><br>
-                ※新型感染症により営業時間が変更になることがございます。ニュースお知らせページまたはお電話にてお問い合わせください。<br>
+                <span>&#9711;予約優先（当日のご予約も承ります。当日のご予約はお電話にてお問い合わせください。）</span><br>
                 <span>&#9711;ご指名料について</span><br>
                 Olvieセラピストのご指名は予約ページよりご予約いただくことができます。 ご指名料金として600円（税込）をいただいております。<br>
                 <span>&#9711;ご指名なしでもご予約いただけます。</span><br>
@@ -339,7 +340,7 @@ get_header(); ?>
             <div class="salonmenu_caution_txt">
                 <span>○お客様のお着替え</span><br>
                 ・リフレクソロジーとボディトリートメント（着衣）メニューではお客様のお着替え用のシャツとパンツをご用意しております。<br>
-                ・クリーニング代として１着200円（税込）をいただいております。お気になられる方はお着替え用Tシャツなどをご持参いただくこともできます。
+                ・クリーニング代として１着100円（税込）をいただいております。お気になられる方はお着替え用Tシャツなどをご持参いただくこともできます。
             </div>
             <div class="salonmenu_caution_txt">
                 <span>&#9711;ご指名料</span><br>
