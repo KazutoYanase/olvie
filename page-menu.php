@@ -136,8 +136,9 @@ get_header(); ?>
         <!-- 1 Menu Start -->
         <div class="salonmenu_course">
             <div class="salonmenu_name">SHINSE （しんせ）50min</div>
-            <div class="salonmenu_price">6,800<span>円（税込）</span></div>
+            <div class="salonmenu_price">30min　4,200<span>円（税込）</span></div>
         </div>
+        <div class="salonmenu_secondprice">50min　6,800<span>円（税込）</span></div>
         <div class="salonmenu_spec fade">
             <img src="<?= esc_url(get_template_directory_uri()); ?>/common/images/salonmenu_pc_spec_shinse.svg" alt="" class="pc_inline">
             <img src="<?= esc_url(get_template_directory_uri()); ?>/common/images/salonmenu_sp_spec_shinse.svg" alt="" class="sp_inline">
@@ -310,8 +311,7 @@ get_header(); ?>
                 <span>&#9711;予約優先（当日のご予約も承ります。当日のご予約はお電話にてお問い合わせください。）</span><br>
                 <span>&#9711;ご指名料について</span><br>
                 Olvieセラピストのご指名は予約ページよりご予約いただくことができます。 ご指名料金として600円（税込）をいただいております。<br>
-                <span>&#9711;ご指名なしでもご予約いただけます。</span><br>
-                <span>&#9711;お部屋に空きがある場合、当日のご予約も承ります。</span>
+                <span>&#9711;ご指名なしでもご予約いただけます。</span>
             </div>
         </div>
 
@@ -346,11 +346,6 @@ get_header(); ?>
                 <span>&#9711;ご指名料</span><br>
                 Olvieセラピストのご指名は予約ページよりご予約いただくことができます。<br>
                 ご指名料金として600円（税込）をいただいております。
-            </div>
-            <div class="salonmenu_caution_txt">
-                <span>&#9711;キャンセルポリシー</span><br>
-                施術日時の24時間以内のキャンセルにつきましては、<br class="pc_inline">
-                施術料金の100％のキャンセル料金を頂いております。
             </div>
         </div>
     </div>
